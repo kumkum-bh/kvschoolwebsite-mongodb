@@ -3,8 +3,11 @@ import Swal from "sweetalert2";
 import toast from "react-hot-toast";
 import { Toaster } from "react-hot-toast";
 
+// export const SERVER_URL =
+//   process.env.REACT_APP_SERVER_URL || "http://localhost:5000";
 export const SERVER_URL =
-  process.env.REACT_APP_SERVER_URL || "http://localhost:5000";
+  process.env.REACT_APP_API_URL;
+
 
 const api = axios.create({
   baseURL: SERVER_URL,

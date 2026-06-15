@@ -33,7 +33,7 @@ export default function AdminViewRegistration() {
           {data.studentPhoto ? (
             <img
               src={`http://localhost:5000${data.studentPhoto}`}
-              alt="Photo"
+              alt="student"
             />
           ) : (
             <p>No Photo</p>

@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import api, { API, showToast, showAlert } from "../api";
-import { decryptData } from "../utils/encryption";
+// import { decryptData } from "../utils/encryption";
 import "../styles/Home.css";
 import MainSitePopup from "./MainSitePopup";
 

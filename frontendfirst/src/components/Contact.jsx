@@ -48,11 +48,11 @@ export default function Contact() {
   }, []);
 
 
-  const decodeHTML = (str) => {
-    const textarea = document.createElement("textarea");
-    textarea.innerHTML = str;
-    return textarea.value;
-  };
+  // const decodeHTML = (str) => {
+  //   const textarea = document.createElement("textarea");
+  //   textarea.innerHTML = str;
+  //   return textarea.value;
+  // };
 
   const handleChange = (e) => setForm({ ...form, [e.target.name]: e.target.value });
 

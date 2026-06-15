@@ -9,12 +9,15 @@ export default function AdminGallery() {
   // Fetch Gallery Images
   const fetchImages = async () => {
     try {
-      const res = await api.get(API.ADMIN_GALLERY.GET_ALL, { params: { schoolId: 1, t: Date.now() } });
-      console.log("Gallery GET response:", res.data);
+      // const res = await api.get(API.ADMIN_GALLERY.GET_ALL, { params: { schoolId: 1, t: Date.now() } });
+      const { data } = await api.get(API.ADMIN_GALLERY.GET_ALL, { params: { schoolId: 1, t: Date.now() }});
+      // console.log("Gallery GET response:", res.data);
+      console.log("Gallery GET response:", data);
       // if (res.data.success) {
       //   setImages(res.data.data);
       // }
-      const galleryData = Array.isArray(res.data) ? res.data : res.data.data;
+      // const galleryData = Array.isArray(res.data) ? res.data : res.data.data;
+      const galleryData = Array.isArray(data) ? data : data.data;
       setImages(galleryData);
     } catch (err) {
       console.error(err);
@@ -43,7 +46,11 @@ export default function AdminGallery() {
     }
 
     try {
-      const res = await api.post(API.ADMIN_GALLERY.ADD, {
+      // const res = await api.post(API.ADMIN_GALLERY.ADD, {
+      //   schoolId: 1,
+      //   url: newUrl,
+      // });
+      await api.post(API.ADMIN_GALLERY.ADD, {
         schoolId: 1,
         url: newUrl,
       });

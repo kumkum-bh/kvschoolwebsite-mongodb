@@ -1,0 +1,88 @@
+.fee-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px;
+  background: #f4f9ff;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #cfe3ff;
+}
+
+h1 {
+  text-align: center;
+  color: #0055cc;
+}
+
+.box {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.box input {
+  padding: 10px;
+  width: 300px;
+  border: 2px solid #0055cc;
+  border-radius: 10px;
+  outline: none;
+}
+
+.box button {
+  padding: 10px 20px;
+  background: #0055cc;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.details-box {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #d0e5ff;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+table th {
+  background: #0066ff;
+  color: white;
+  padding: 10px;
+}
+
+table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.total-row td {
+  font-weight: bold;
+  background: #d9e9ff;
+}
+
+.payment-box {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.payment-box input {
+  padding: 10px;
+  width: 200px;
+  border: 2px solid #0066ff;
+  border-radius: 10px;
+}
+
+.payment-box button {
+  padding: 10px 20px;
+  background: #0066ff;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}

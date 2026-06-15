@@ -1,0 +1,96 @@
+.admin-contact-page {
+  padding: 25px;
+  background: #f3f8ff;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.title {
+  color: #0d3b66;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Add Buttons Row */
+.add-buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+/* Content List */
+.content-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* Each Editable Box */
+.content-box {
+  background: white;
+  padding: 18px;
+  border-radius: 10px;
+  border: 1px solid #c8d8f0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 50, 0.05);
+}
+
+/* Input Fields */
+.input-text,
+.input-label,
+.input-url {
+  padding: 10px 14px;
+  border: 1px solid #b7c9e8;
+  border-radius: 6px;
+  width: 100%;
+  transition: 0.2s;
+}
+
+.input-text:focus,
+.input-label:focus,
+.input-url:focus {
+  border-color: #1e90ff;
+  box-shadow: 0 0 5px rgba(30, 144, 255, 0.35);
+}
+
+/* Link fields side-by-side */
+.link-fields {
+  flex: 1;
+  display: flex;
+  gap: 10px;
+}
+
+/* Delete Button aligned right */
+.delete-btn {
+  margin-left: auto;
+}
+
+/* Save button */
+.save-btn {
+  margin-top: 25px;
+  padding: 10px 20px;
+  font-weight: 600;
+  background-color:#1d4ed8;
+}
+
+.save-btn:hover{
+    background-color: #2563eb;
+}
+
+/* Add Text / Add Link buttons */
+.contact-btn {
+  background-color: #4CAF50 !important;  /* Blue */
+  border-color: green !important;
+  color: white !important;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-right: 10px;
+  transition: 0.2s;
+}
+
+.contact-btn:hover {
+  background-color: #45a049 !important;
+}

@@ -1,0 +1,76 @@
+/* AdminAdmissions.css */
+
+.admin-admissions-editor {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #f4f8ff;
+  border-radius: 15px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+}
+
+.admin-admissions-editor h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #003566;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.admin-admissions-editor label {
+  display: block;
+  font-weight: 500;
+  margin: 20px 0 8px;
+  color: #003566;
+}
+
+.admin-admissions-editor .ql-container {
+  min-height: 200px;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #cdd4e0;
+  margin-bottom: 20px;
+}
+
+.admin-admissions-editor .ql-toolbar {
+  border-radius: 8px 8px 0 0;
+  border: 1px solid #cdd4e0;
+  border-bottom: none;
+  background: #f9f9f9;
+}
+
+.admin-admissions-editor .ql-toolbar .ql-picker-label {
+  color: #003566;
+}
+
+.admin-admissions-editor button {
+  display: block;
+  width: 200px;
+  margin: 30px auto 0;
+  padding: 12px 0;
+  background: #1a73e8;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.admin-admissions-editor button:hover {
+  background: #155ab6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .admin-admissions-editor {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .admin-admissions-editor button {
+    width: 100%;
+  }
+}

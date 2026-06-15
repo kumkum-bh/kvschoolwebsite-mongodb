@@ -1,0 +1,54 @@
+.admin-popup-wrapper {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f0f4f8;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.admin-popup-wrapper h2 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 25px;
+}
+
+.admin-popup-wrapper label {
+  display: block;
+  margin: 15px 0 5px;
+  font-weight: 600;
+  color: #003366;
+}
+
+.admin-popup-wrapper input,
+.admin-popup-wrapper textarea,
+.admin-popup-wrapper select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #a0b4c8;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+.admin-popup-wrapper textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.admin-popup-wrapper button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #0059b3;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.admin-popup-wrapper button:hover {
+  background-color: #003366;
+}

@@ -1,0 +1,201 @@
+/* ===== Admissions Page Container ===== */
+.admissions-page {
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+  padding: 50px 8%;
+  background-color: #f9fafc;
+  font-family: "Segoe UI", sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* ===== Left Column (Menu) ===== */
+.left-column {
+  flex: 0 0 250px; /* fixed width for left menu */
+  background: #ffffff;
+  border: 1px solid #d9e1f2;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  padding: 25px;
+  height: fit-content;
+  position: sticky;
+  top: 100px;
+}
+
+.left-column h2 {
+  font-size: 24px;
+  color: #003366;
+  border-bottom: 3px solid #003366;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.info-box p {
+  margin: 0;
+  padding: 15px;
+  border: 1px solid #c3d4f2;
+  border-radius: 10px;
+  background: #f3f8ff;
+  text-align: center;
+  font-weight: 600;
+  color: #003366;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.info-box p:hover {
+  background: #003366;
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+/* ===== Right Column (Content) ===== */
+.right-column {
+  flex: 1; /* take all remaining space */
+  background: #ffffff;
+  border: 1px solid #d9e1f2;
+  border-radius: 12px;
+  padding: 35px 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  line-height: 1.7;
+  color: #333;
+  box-sizing: border-box;
+}
+
+.right-column h2 {
+  color: #003366;
+  font-size: 26px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #003366;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.right-column p {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #333;
+}
+
+.right-column ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.right-column ul li {
+  margin-bottom: 8px;
+}
+
+/* ===== Apply Online Button ===== */
+.apply-btn {
+  display: inline-block;
+  background-color: #003366;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: all 0.3s ease;
+}
+
+.apply-btn:hover {
+  background-color: #0059b3;
+  transform: scale(1.03);
+}
+
+/* ===== Fee Table Styling ===== */
+/* .fee-table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.fee-table-container th, 
+.fee-table-container td {
+  border: 1px solid #cfd9ec;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.fee-table-container th {
+  background-color: #003366;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.fee-table-container td {
+  background-color: #f9fafd;
+} */
+.fee-table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.fee-table-container th,
+.fee-table-container td {
+  border: 1px solid #333;
+  padding: 10px;
+  text-align: left;
+}
+
+.fee-table-container th {
+  background: #f1f1f1;
+  font-weight: bold;
+}
+
+
+/* ===== Responsive Layout ===== */
+@media (max-width: 1200px) {
+  .right-column {
+    min-width: 500px;
+  }
+}
+
+@media (max-width: 992px) {
+  .admissions-page {
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 5%;
+  }
+
+  .left-column {
+    position: static;
+    max-width: 100%;
+  }
+
+  .right-column {
+    min-width: 100%;
+    padding: 30px 20px;
+  }
+
+  .apply-btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .right-column h2 {
+    font-size: 22px;
+  }
+  .left-column h2 {
+    font-size: 20px;
+  }
+  .info-box p {
+    font-size: 14px;
+    padding: 12px;
+  }
+}

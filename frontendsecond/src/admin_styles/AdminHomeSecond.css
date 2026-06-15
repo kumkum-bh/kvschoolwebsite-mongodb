@@ -1,0 +1,121 @@
+/* ---------- GLOBAL ---------- */
+.admin-home-second {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.admin-home-second h1 {
+  margin-bottom: 10px;
+}
+
+.admin-home-second h2 {
+  margin-bottom: 12px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/* ---------- FORM ELEMENTS ---------- */
+.admin-home-second input,
+.admin-home-second textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+}
+
+.admin-home-second input:focus,
+.admin-home-second textarea:focus {
+  border-color: #007bff;
+}
+
+/* ---------- BUTTONS ---------- */
+.btn {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-add {
+  background: #28a745;
+  color: #fff;
+}
+
+.btn-add:hover {
+  background: #23923d;
+}
+
+.btn-delete {
+  background: #dc3545;
+  color: #fff;
+  padding: 6px 12px;
+}
+
+.btn-delete:hover {
+  background: #b92a37;
+}
+
+.btn-save {
+  background: #007bff;
+  color: #fff;
+}
+
+.btn-save:hover {
+  background: #006adb;
+}
+
+.btn-reload {
+  background: #6c757d;
+  color: #fff;
+}
+
+.btn-reload:hover {
+  background: #5f676d;
+}
+
+/* ---------- SECTION BOXES ---------- */
+.admin-home-second section {
+  background: #fff;
+  padding: 18px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+/* ---------- IMAGE WRAPPERS ---------- */
+.img-box,
+.moment-img-box {
+  background: #f6f6f6;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+
+.img-box img,
+.moment-img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ---------- DYNAMIC REPEATING BOXES ---------- */
+.dynamic-item {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 12px;
+  background: #fafafa;
+}
+
+/* ---------- GRID ---------- */
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}

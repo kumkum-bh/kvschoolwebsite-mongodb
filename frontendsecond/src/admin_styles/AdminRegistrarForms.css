@@ -1,0 +1,49 @@
+.admin-registrar-wrapper {
+  padding: 25px;
+  background: #f0f6ff;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+.admin-registrar-wrapper h2 {
+  text-align: center;
+  color: #003d80;
+  margin-bottom: 25px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+
+.admin-table th {
+  background: #0059b3;
+  color: white;
+  padding: 12px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.admin-table td {
+  padding: 12px;
+  font-size: 14px;
+  color: #333;
+  border-bottom: 1px solid #d9e6f7;
+}
+
+.admin-table tr:hover td {
+  background: #eef5ff;
+}
+
+.no-data {
+  text-align: center;
+  padding: 20px;
+  font-style: italic;
+  color: #666;
+}

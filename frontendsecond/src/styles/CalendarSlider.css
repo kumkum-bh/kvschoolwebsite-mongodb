@@ -1,0 +1,97 @@
+.calendar-container {
+  width: 100%;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.slider-wrapper {
+  width: 100%;
+  position: relative;
+  height: 260px;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  opacity: 0;
+  transform: translateX(40px);
+  transition: all 0.5s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.activity-card {
+  width: 48%;
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  border-left: 6px solid #ffb600;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.class-heading {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+/* Content auto-scroll bottom to top */
+.scroll-content {
+  height: 120px;
+  overflow: hidden;
+  position: relative;
+}
+
+.scroll-content h4,
+.scroll-content p {
+  margin: 0;
+  padding: 0;
+}
+
+.date {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ff6a00;
+  animation: moveUp 4s linear infinite;
+}
+
+.activity {
+  margin-top: 8px;
+  font-size: 15px;
+  color: #444;
+  animation: moveUp 4s linear infinite;
+}
+
+@keyframes moveUp {
+  0% { transform: translateY(40px); opacity: 0; }
+  30% { opacity: 1; }
+  100% { transform: translateY(-40px); opacity: 0; }
+}
+
+.view-all-btn {
+  margin-top: 20px;
+  background: #ffb600;
+  padding: 12px 24px;
+  border: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 160px;
+  display: block;
+}
+
+.view-all-btn:hover {
+  background: #e0a200;
+}
+

@@ -1,0 +1,6 @@
+.edit-teacher-page { max-width:900px; margin:30px auto; padding:20px; background:#fff; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,.05); }
+.teacher-form input, .teacher-form textarea, .teacher-form select { width:100%; padding:10px; margin:8px 0; border-radius:8px; border:1px solid #d7e8ff; }
+.image-row { display:flex; gap:12px; align-items:center; }
+.preview { width:100px; height:100px; object-fit:cover; border-radius:8px; }
+.form-actions { margin-top:16px; }
+.form-actions button { padding:10px 16px; margin-right:8px; border-radius:8px; border:none; cursor:pointer; }

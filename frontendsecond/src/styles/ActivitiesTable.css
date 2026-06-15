@@ -1,0 +1,48 @@
+
+.table-wrapper {
+  padding: 40px;
+  text-align: center;
+}
+
+
+.table-wrapper h2 {
+  margin-bottom: 20px;
+  color: #222;
+  font-size: 28px;
+  text-align: center;
+}
+
+
+.activity-table {
+  width: 100%;
+  border-collapse: separate;   
+  border-spacing: 0;          
+  background: white;
+
+  border-left: 8px solid #ffb600;   
+  box-shadow: 0 0 15px rgba(0,0,0,0.15); 
+  border-radius: 10px;               
+
+  overflow: hidden; 
+}
+
+
+.activity-table th {
+  background: #ffb600;
+  padding: 12px;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+.activity-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+
+.activity-table tr:hover td {
+  background: #fff4d3;
+}

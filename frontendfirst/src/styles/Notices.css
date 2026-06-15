@@ -1,0 +1,132 @@
+/* ================================
+   GLOBAL BLUE THEME NOTICE UI
+   ================================ */
+
+body {
+  background: #F0F9FF;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ------------------------------
+   NOTICE CONTAINER
+------------------------------ */
+.notice-container {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(30, 58, 138, 0.15);
+}
+
+/* ------------------------------
+   HEADINGS
+------------------------------ */
+.notice-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #1E3A8A;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* ------------------------------
+   FORM INPUTS
+------------------------------ */
+.notice-input,
+.notice-textarea,
+.notice-file {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0 18px 0;
+  border: 2px solid #93C5FD;
+  border-radius: 10px;
+  font-size: 15px;
+  outline: none;
+  background: #F0F9FF;
+  transition: 0.3s ease;
+}
+
+.notice-input:focus,
+.notice-textarea:focus {
+  border-color: #3B82F6;
+  background: #DBEAFE;
+}
+
+.notice-textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* ------------------------------
+   BUTTONS
+------------------------------ */
+.btn-blue {
+  background: #1E3A8A;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.btn-blue:hover {
+  background: #3B82F6;
+}
+
+/* Delete Button */
+.btn-delete {
+  background: #DC2626;
+  margin-left: 10px;
+}
+
+.btn-delete:hover {
+  background: #EF4444;
+}
+
+/* ------------------------------
+   NOTICE LIST CARDS
+------------------------------ */
+.notice-card {
+  padding: 18px;
+  margin: 18px 0;
+  background: #DBEAFE;
+  border-left: 6px solid #3B82F6;
+  border-radius: 10px;
+}
+
+.notice-card h3 {
+  margin: 0;
+  color: #1E3A8A;
+}
+
+.notice-card p {
+  margin: 6px 0;
+}
+
+/* File link */
+.notice-download {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 14px;
+  background: #3B82F6;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.notice-download:hover {
+  background: #1E3A8A;
+}
+
+/* Divider */
+.divider {
+  border-bottom: 2px solid #93C5FD;
+  margin: 25px 0;
+}
+

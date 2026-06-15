@@ -1,0 +1,153 @@
+/* ========== Main Container ========== */
+
+.main-container {
+  padding: 40px 20px;
+  background: #f4f8ff;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ========== Two Column Layout ========== */
+.two-column {
+  display: grid;
+  grid-template-columns: 300px auto;
+  gap: 40px;                     /* ← YAHAN SE GAP APPLY HOGA */
+  max-width: 1300px;
+  margin: auto;
+}
+
+
+
+/* ========== Left Column Box ========== */
+
+.left-column {
+  width: 300px;
+  min-width: 300px;
+  max-width: 300px;
+
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+
+  position: sticky;
+  top: 120px;
+
+  max-height: 420px;
+  overflow-y: auto;
+
+  border-left: 5px solid #1a73e8;
+
+ 
+  scrollbar-width: none;     
+}
+.left-column::-webkit-scrollbar {
+  display: none;             
+}
+
+
+.left-column h2 {
+  font-size: 22px;
+  color: #003566;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.left-column,
+.points-box {
+  flex: none !important;
+}
+
+
+/* ========== Left Side Section Links ========== */
+
+.points-box p {
+  margin: 12px 0;
+  padding: 12px 14px;
+  background: #eaf2ff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 500;
+  border-left: 4px solid #4ea8de;
+}
+
+.points-box p:hover {
+  background: #d6e7ff;
+  color: #003566;
+  transform: translateX(6px);
+}
+
+.points-box p.active {
+  background: #cde0ff;
+  border-left: 6px solid #1a73e8;
+  font-weight: 600;
+}
+
+/* ========== Right Column ========== */
+
+.right-column {
+  padding-right: 10px; 
+}
+
+
+.right-column > div {
+  background: white;
+  padding: 30px;
+  margin-bottom: 35px;
+  border-radius: 18px;
+  box-shadow: 0 0 18px rgba(0,0,0,0.08);
+  border-left: 6px solid #1a73e8;
+  transition: 0.3s ease;
+}
+
+.right-column > div:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 22px rgba(0,0,0,0.12);
+}
+
+.right-column h2 {
+  font-size: 24px;
+  color: #003566;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+/* ========== Rich Text Content ========== */
+
+.results-list {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.7;
+}
+
+.results-list ul {
+  padding-left: 20px;
+}
+
+.results-list p,
+.results-list li {
+  margin-bottom: 10px;
+}
+
+/* ========== Smooth Scroll ========== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ========== Responsive ========== */
+
+@media (max-width: 992px) {
+  .two-column {
+    grid-template-columns: 1fr;
+  }
+
+  .left-column {
+    position: relative;
+    top: 0;
+    width: 100%;
+    max-height: none;
+    overflow: visible;
+    margin-bottom: 20px;
+  }
+}

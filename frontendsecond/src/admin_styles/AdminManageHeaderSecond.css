@@ -1,0 +1,38 @@
+.admin-header-wrapper {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.preview-img {
+  width: 150px;
+  margin: 10px 0;
+}
+
+.preview-video {
+  width: 250px;
+  margin: 10px 0;
+}
+
+.menu-item-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+}
+
+.add-btn,
+.save-btn,
+.delete-btn {
+  padding: 8px 12px;
+  margin-top: 10px;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+}

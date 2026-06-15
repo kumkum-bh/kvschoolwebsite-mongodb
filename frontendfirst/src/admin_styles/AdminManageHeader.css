@@ -1,0 +1,93 @@
+.admin-header-wrapper {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.page-title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #1457a3;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header-card {
+  background: linear-gradient(to right, #e3f0ff, #f1f7ff);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 73, 128, 0.15);
+  margin-bottom: 25px;
+}
+
+.header-card h3 {
+  color: #0f4c97;
+  margin-bottom: 15px;
+}
+
+.header-card label {
+  font-weight: 600;
+  color: #003b73;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 15px;
+  border: 1px solid #aac8ff;
+  border-radius: 6px;
+  outline: none;
+}
+
+textarea {
+  min-height: 70px;
+}
+
+.add-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.add-btn,
+.save-btn {
+  background-color: #0f64c7;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.save-btn {
+  margin-top: 15px;
+  background-color: #004c97;
+}
+
+.delete-btn {
+  background-color: #d40000;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.section-divider {
+  height: 1px;
+  background: #b2ccff;
+  margin: 15px 0;
+}
+
+.button-list .button-item,
+.menu-item {
+  background: white;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #d7e7ff;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}

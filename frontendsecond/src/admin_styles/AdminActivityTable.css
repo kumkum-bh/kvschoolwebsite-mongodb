@@ -1,0 +1,63 @@
+.quill-input {
+  width: 100%;
+  background: white;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.ql-container {
+  min-height: 120px;
+  border-radius: 8px;
+  border: 2px solid goldenrod !important;
+}
+
+.ql-toolbar {
+  border-radius: 8px 8px 0 0;
+  border: 2px solid goldenrod !important;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: center;   /* 👈 saara content perfect center mein aayega */
+  vertical-align: middle; /* 👈 top ya bottom shift nahi hoga */
+  padding: 10px;
+}
+
+
+.activity-form button {
+  background: #2b6cb0;
+  color: white;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s ease;
+}
+
+.activity-form button:hover {
+  background: #1e4e80;
+}
+
+
+.edit-btn {
+  background: #38a169;
+  color: #fff;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 8px;
+  font-size: 14px;
+  transition: 0.2s ease;
+}
+
+.edit-btn:hover {
+  background: #2f855a;
+}

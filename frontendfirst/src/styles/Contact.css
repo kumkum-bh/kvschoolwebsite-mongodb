@@ -1,0 +1,110 @@
+.left-column {
+  width: 23%;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+  height: fit-content;
+  position: sticky;
+  top: 120px;
+
+  /* New */
+  max-height: 80vh; /* box height limit */
+  overflow-y: auto; /* scroll if content too long */
+  line-height: 1.6; /* spacing between lines */
+  word-wrap: break-word;
+}
+
+.left-column p {
+  margin-bottom: 10px;
+}
+
+.left-column a {
+  color: #0057b3;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.left-column a:hover {
+  text-decoration: underline;
+}
+
+.left-column button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #0a3c78;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.left-column button:hover {
+  background-color: #003f82;
+}
+
+
+/* ================== Contact Registrar Button ================== */
+.registrar-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0a3c78;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.3s ease;
+}
+
+.registrar-btn:hover {
+  background-color: #003f82;
+}
+
+.registrar-form input,
+.registrar-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.registrar-form button {
+  background-color: #0a3c78;
+  color: white;
+  padding: 10px 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.registrar-form button:hover {
+  background-color: #003f82;
+}
+
+
+/* ================== Responsive ================== */
+@media(max-width: 900px){
+  .two-column {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .left-column {
+    width: 100%;
+    position: relative;
+    top: 0;
+  }
+
+  .right-column {
+    width: 100%;
+  }
+}

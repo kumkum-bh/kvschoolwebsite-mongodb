@@ -1,0 +1,17 @@
+.teachers-container { display:flex; gap:20px; padding:20px; font-family: "Segoe UI", sans-serif; }
+.left-panel { width:320px; background:#fff; border-radius:10px; padding:12px; box-shadow:0 6px 18px rgba(0,0,0,.06); }
+.left-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; }
+.add-btn { background:#0073e6; color:#fff; border:none; padding:8px 12px; border-radius:8px; cursor:pointer; }
+.teacher-list { list-style:none; padding:0; margin:0; max-height:78vh; overflow:auto; }
+.teacher-list li { display:flex; gap:12px; padding:10px; border-radius:8px; align-items:center; cursor:pointer; }
+.teacher-list li img { width:56px; height:56px; object-fit:cover; border-radius:8px; border:1px solid #e6eefc; }
+.teacher-list li.active { background: linear-gradient(90deg,#f0f7ff,#eef6ff); }
+
+.right-panel { flex:1; background:#fff; border-radius:10px; padding:20px; box-shadow:0 6px 18px rgba(0,0,0,.06); min-height:70vh; }
+.placeholder { color:#666; padding:40px; text-align:center; }
+.details-box .big-photo { width:160px; height:160px; object-fit:cover; border-radius:10px; float:left; margin-right:20px; }
+.details-box h2 { margin-top:0; }
+.details-box p { margin:6px 0; }
+.actions { margin-top:20px; }
+.actions button { margin-right:12px; padding:10px 14px; border-radius:8px; border:none; cursor:pointer; }
+.actions .delete { background:#e03b3b; color:#fff; }

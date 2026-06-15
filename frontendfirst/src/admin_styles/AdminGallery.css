@@ -1,0 +1,71 @@
+/* Page Wrapper */
+.admin-gallery-page {
+  padding: 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Add Image Section */
+.add-image-box {
+  background: #eff6ff;
+  border: 1px solid #93c5fd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.gallery-input {
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+/* Add Button */
+.gallery-add-btn {
+  background-color: #4CAF50 !important;
+  border-color: green !important;
+  color: white !important;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.gallery-add-btn:hover {
+  background-color: #45a049 !important;
+}
+
+/* Grid Layout */
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Image Card */
+.gallery-card {
+  width: 200px;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  padding: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Image */
+.gallery-img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Delete Button */
+.gallery-delete-btn {
+  margin-top: 10px;
+  background-color: #dc2626 !important;
+  border-color: #dc2626 !important;
+  color: white !important;
+  border-radius: 5px;
+}
+.gallery-delete-btn:hover {
+  background-color: #b91c1c !important;
+}

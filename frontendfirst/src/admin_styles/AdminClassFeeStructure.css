@@ -1,0 +1,155 @@
+/* AdminClassFeeStructure.css */
+
+/* Layout */
+.classes-fee-layout {
+  display: flex;
+  min-height: 80vh;
+  gap: 20px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+/* LEFT PANEL */
+.left-panel {
+  width: 220px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.left-panel h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+}
+
+.class-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.class-list li {
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #f0f0f0;
+  transition: all 0.2s;
+  text-align: center;
+}
+
+.class-list li.active,
+.class-list li:hover {
+  background: lightseagreen;
+  color: #000;
+  font-weight: bold;
+}
+
+/* RIGHT PANEL */
+.right-panel {
+  flex: 1;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.right-panel h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Fee Card */
+.fee-card {
+  background: #fafafa;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.fee-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+
+.fee-table th,
+.fee-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.fee-table th {
+  background:lightseagreen;
+  color: #000;
+}
+
+.fee-table input[type="text"],
+.fee-table input[type="number"] {
+  width: 90%;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+/* Buttons */
+.add-btn,
+.save-btn,
+.delete-btn {
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.add-btn {
+  background: #4CAF50;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.add-btn:hover {
+  background: #45a049;
+}
+
+.save-btn {
+  background: #FFB600;
+  color: #000;
+  width: 20%;
+  margin-top: 10px;
+}
+
+.save-btn:hover {
+  background: #e6a400;
+}
+
+.delete-btn {
+  background: #f44336;
+  color: #fff;
+}
+
+.delete-btn:hover {
+  background: #d32f2f;
+}
+
+/* Total Text */
+.total-text {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Placeholder text when no class selected */
+.select-class-text {
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+  padding: 50px 0;
+}

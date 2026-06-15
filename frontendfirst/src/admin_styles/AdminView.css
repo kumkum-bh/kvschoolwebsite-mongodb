@@ -1,0 +1,39 @@
+.view-container {
+  padding: 20px;
+}
+
+.view-box {
+  background: #fff;
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #dce3f5;
+}
+
+.photo-sec img {
+  width: 160px;
+  height: 190px;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 2px solid #003366;
+}
+
+.info-sec p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 8px 16px;
+  background: #003366;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  background: #00244d;
+}

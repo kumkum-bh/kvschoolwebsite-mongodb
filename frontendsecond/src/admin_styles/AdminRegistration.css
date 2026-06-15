@@ -1,0 +1,36 @@
+.admin-table-page {
+  padding: 20px;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.styled-table th {
+  background: #003366;
+  color: #fff;
+  padding: 12px;
+}
+
+.styled-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.styled-table tr:hover {
+  background: #f1f6ff;
+}
+
+.view-btn {
+  padding: 6px 12px;
+  background: #0066cc;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.view-btn:hover {
+  background: #004c99;
+}
